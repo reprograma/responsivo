@@ -1,26 +1,29 @@
-Aula 1
+# Layout responsivo
 
-Layout responsivo
+* [Aula 1](#aula-1)
+* [Aula 2](#aula-2)
+* [Aula 3](#aula-3)
 
-O que é layout responsivo?
+***
 
-imagem
+## Aula 1
 
+#### O que é layout responsivo?
+
+![responsive](https://media.giphy.com/media/b2CD0Qrq2ulwY/giphy.gif)
 
 É um layout que se adapta ao diversos tamanhos de telas existentes.
 Ou seja, um mesmo layout que vai se adaptar desde uma tela de celular a uma televisão de 42 polegadas.
-
 
 A ideia do layout responsivo surgiu em 2010, com um designer chamado Ethan Marcotte
 
 https://alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html
 
-
 https://alistapart.com/article/responsive-web-design
 
+***
 
-Porque layout responsivo é 😍  
-
+#### Porque layout responsivo é 😍  
 
 UX friendly: mantém o mesmo design adaptado para diferentes formatos de tela, sempre pensando na melhor usabilidade para cada formato.
 
@@ -30,8 +33,9 @@ UX friendly: mantém o mesmo design adaptado para diferentes formatos de tela, s
 
 SEO friendly: como a aplicação só tem uma URL isso ajuda a manter todos os dados consistentes e a melhorar a posição no ranking do Google
 
+***
 
-Porque layout responsivo é  🤦‍♀️
+#### Porque layout responsivo é 🤦‍
 
 imagem
 
@@ -60,8 +64,9 @@ Layout responsivo?
 Versão mobile/tablet?
 App nativo?
 
+***
 
-Técnicas de layout responsivo
+#### Técnicas de layout responsivo
 
 
 1)  Grid fluido: Uso de % ao invés de valores absolutos (px)
@@ -71,7 +76,9 @@ https://alistapart.com/article/fluidgrids
 2) Media queries: São breakpoints que modificam o CSS para cada resolução de tela.
 https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 
-Vamos começar?
+***
+
+#### Vamos começar?
 
 O primeiro passo é adicionar a metatag viewport  no <head> do site. Essa tag vai passar instruções para o browser renderizar o conteúdo conforme o tamanho do dispositivo.
 
@@ -102,12 +109,11 @@ Apesar da grande variedade de dispositivos disponíveis no mercado, existem algu
 768px
 320px
 
-
 ***
 
-Aula 2
+## Aula 2
 
-Como testar?
+#### Como testar?
 
 Font-size responsive
 
@@ -123,14 +129,16 @@ Imagens responsivas
 
 ***
 
-Aula 3
+## Aula 3
 
-Mobile first
+#### Mobile first
 
 O que é mobile first?
 É exatamente o que o nome sugere: pensar em toda a estrutura de um site a partir do mobile e depois ir progressivamente pensando nas telas maiores.
 
-Porque é importante
+***
+
+#### Porque é importante
 
 imagem
 imagem
