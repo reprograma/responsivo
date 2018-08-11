@@ -37,7 +37,7 @@ SEO friendly: como a aplicação só tem uma URL isso ajuda a manter todos os da
 
 #### Porque layout responsivo é 🤦‍
 
-imagem
+![Mockup](images/devices.png)
 
 Versões antigas do IE
 
@@ -45,9 +45,7 @@ Se o layout e a arquitetura do código não forem desenhadas antes de começar o
 
 O site responsivo pode ser mais demorado de carregar (se tiver muitas imagens redimensionadas, por exemplo)
 
-Resolução de tela
-x
-Tamanho de tela
+Resolução de tela x Tamanho de tela
 
 Resolução de tela: A resolução da tela de um dispositivo é o número de pixels em cada dimensão que podem ser exibidos.
 
@@ -68,10 +66,8 @@ App nativo?
 
 #### Técnicas de layout responsivo
 
-
-1)  Grid fluido: Uso de % ao invés de valores absolutos (px)
+1) Grid fluido: Uso de % ao invés de valores absolutos (px)
 https://alistapart.com/article/fluidgrids
-
 
 2) Media queries: São breakpoints que modificam o CSS para cada resolução de tela.
 https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
@@ -82,32 +78,39 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queri
 
 O primeiro passo é adicionar a metatag viewport  no <head> do site. Essa tag vai passar instruções para o browser renderizar o conteúdo conforme o tamanho do dispositivo.
 
-<meta name="viewport" content="width=device-width, initial-scale=1”>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+```
 @media (max-width: 768px) {
    color: #fff;
 }
-"Se [largura do dispositivo] for menor ou igual a 768px, então execute o {...}"
+```
 
+`Se [largura do dispositivo] for menor ou igual a 768px, então execute o {...}`
 
+```
 @media (min-width: 768px) {
    color: #fff;
 }
+```
 "Se [largura do dispositivo] for maior ou igual a 768px, então execute o {...}"
 
-
+```
 @media (max-width: 768px) and (min-width: 600px) {
    color: #fff;
 }
-"Se [largura do dispositivo] for entre 768px e 600px, então execute o {...}"
-
+```
+`Se [largura do dispositivo] for entre 768px e 600px, então execute o {...}`
 
 Apesar da grande variedade de dispositivos disponíveis no mercado, existem alguns breakpoints padrões que são mais usados:
 
+```
 1280px
 1024px
 768px
 320px
+```
 
 ***
 
@@ -140,9 +143,9 @@ O que é mobile first?
 
 #### Porque é importante
 
-imagem
-imagem
-imagem
+![Mockup](images/mobile-first-1.png)
+![Mockup](images/mobile-first-2.png)
+![Mockup](images/mobile-first-3.png)
 
 
 Apesar do número de usuários que acessam sites pelo celular/tablet, é mais comum para os designers/desenvolvedores pensar no site a partir do desktop, que é a tela que eles estão olhando quando estão trabalhando. Depois de tudo pensando para desktop, começa um processo de “aperta pra caber” o conteúdo no mobile
@@ -151,11 +154,11 @@ Apesar do número de usuários que acessam sites pelo celular/tablet, é mais co
 Só que nesse processo alguma informação importante para o usuário que acessa pelo celular pode ser cortada do site, e outras informações não tão relevantes podem ser mantidas.
 
 
-Porque mobile first é :)
+Porque mobile first é 😍
 
-A maior vantagem desse método é a otimização do site para o celular, com foco em conteúdo e funcionalidade para melhorar a experiência do usuário
+* A maior vantagem desse método é a otimização do site para o celular, com foco em conteúdo e funcionalidade para melhorar a experiência do usuário
 
 
-Porque mobile first é :(
+Porque mobile first é 🤦‍
 
-No processo de pensamento minimalista você pode acabar perdendo boas ideias
+* No processo de pensamento minimalista você pode acabar perdendo boas ideias
