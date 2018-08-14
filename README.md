@@ -12,26 +12,32 @@
 
 ![responsive](https://media.giphy.com/media/b2CD0Qrq2ulwY/giphy.gif)
 
-É um layout que se adapta ao diversos tamanhos de telas existentes.
-Ou seja, um mesmo layout que vai se adaptar desde uma tela de celular a uma televisão de 42 polegadas.
+Hoje em dia temos uma enorme variedade de dispositivos onde um site pode ser visualizado (laptops, tablets, netbooks, celulares, desktops com tela pequena, iMacs com telas gigantescas, televisão, etc.). Seria inviável (e enlouquecedor) desenhar uma versão específica de um site para cada tamanho e resolução de tela disponíveis no mercado.
+
+O design responsivo é uma das soluções para nos ajudar a resolver esse problema. Um layout responsivo que é aquele que se adapta ao diversos tamanhos de telas existentes. Ou seja, um mesmo layout que vai se adaptar desde a tela de celular até uma televisão de 42 polegadas.
 
 A ideia do layout responsivo surgiu em 2010, com um designer chamado Ethan Marcotte
-
 https://alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html
-
 https://alistapart.com/article/responsive-web-design
+
+
+#### Alguns princípios do design responsivo:
+
+* Adaptar o layout da página de acordo com a resolução em que está sendo visualizada;
+* Redimensionar as imagens automaticamente para que caibam na tela e para que não sobrecarreguem a transferência de dados em um celular, por exemplo;
+* Simplificar elementos da tela para dispositivos móveis;
+* Ocultar elementos desnecessários nos dispositivos menores;
+* Adaptar tamanho de botões e links para interfaces touch onde o ponteiro do mouse é substituído pelo dedo do usuário;
+* Utilizar de forma inteligente recursos mobile como mudança na orientação do aparelho (horizontal ou vertical).
 
 ***
 
 #### Porque layout responsivo é 😍  
 
-UX friendly: mantém o mesmo design adaptado para diferentes formatos de tela, sempre pensando na melhor usabilidade para cada formato.
-
-É mais barato desenvolver um site responsivo do que ter que desenvolver versões diferentes do site, em um versão mobile, por exemplo.
-
-É mais fácil de manter, porque o código está em todo em um lugar só
-
-SEO friendly: como a aplicação só tem uma URL isso ajuda a manter todos os dados consistentes e a melhorar a posição no ranking do Google
+* UX friendly: mantém o mesmo design adaptado para diferentes formatos de tela, sempre pensando na melhor usabilidade para cada formato;
+* É mais barato desenvolver um site responsivo do que ter que desenvolver versões diferentes do site, em um versão mobile, por exemplo;
+* É mais fácil dar manutenção, porque o código está todo em um lugar só (se tivesse uma versão mobile, por exemplo, uma mudança de código teria que ser feita em dois lugares);
+* SEO friendly: como a aplicação só tem uma URL isso ajuda a manter todos os dados consistentes e a melhorar a posição no ranking do Google.
 
 ***
 
@@ -39,13 +45,12 @@ SEO friendly: como a aplicação só tem uma URL isso ajuda a manter todos os da
 
 ![Mockup](images/devices.png)
 
-Versões antigas do IE
+* Versões antigas do IE;
+* Se o layout e a arquitetura do código não forem desenhadas antes de começar o trabalho, o site pode ficar muito difícil de manter/modificar;
+* O site responsivo pode ser mais demorado de carregar (se tiver muitas imagens redimensionadas, por exemplo);
 
-Se o layout e a arquitetura do código não forem desenhadas antes de começar o trabalho, o site pode ficar muito difícil de manter/modificar
 
-O site responsivo pode ser mais demorado de carregar (se tiver muitas imagens redimensionadas, por exemplo)
-
-Resolução de tela x Tamanho de tela
+#### Resolução de tela x tamanho de tela
 
 Resolução de tela: A resolução da tela de um dispositivo é o número de pixels em cada dimensão que podem ser exibidos.
 
@@ -57,14 +62,16 @@ http://teknosrc.com/resolution-vs-pixel-density-in-displays-all-you-need-to-know
 
 https://fueled.com/blog/iphone-screen-size-screen-resolution/
 
-Quando vale a pena ter um site com :
-Layout responsivo?
-Versão mobile/tablet?
-App nativo?
+
+#### Quando vale a pena ter um site com:
+
+* Layout responsivo
+* Versão mobile/tablet
+* App nativo
 
 ***
 
-#### Técnicas de layout responsivo
+#### Técnicas de layout responsivo que vamos aprender
 
 1) Grid fluido: Uso de % ao invés de valores absolutos (px)
 https://alistapart.com/article/fluidgrids
@@ -112,23 +119,24 @@ Apesar da grande variedade de dispositivos disponíveis no mercado, existem algu
 320px
 ```
 
+* [Exercicio - Transformar um layout feito para desktop em responsivo](https://github.com/reprograma/responsivo/tree/master/exercicio-desktop-para-responsivo)
+
+
 ***
 
 ## Aula 2
 
 #### Como testar?
 
-Font-size responsive
+#### Font-size responsive
 
-UX friendly: mantém o mesmo design adaptado para diferentes formatos de tela, sempre pensando na melhor usabilidade para cada formato.
+#### Imagens responsivas
 
-É mais barato desenvolver um site responsivo do que ter que desenvolver versões diferentes do site, em um versão mobile, por exemplo.
+#### JPG, PNG e SVG
 
-É mais fácil de manter, porque o código está em todo em um lugar só
+Quando você salvar
 
-SEO friendly: como a aplicação só tem uma URL isso ajuda a manter todos os dados consistentes e a melhorar a posição no ranking do Google
-
-Imagens responsivas
+* [Exercicio - Codar um layout responsivo do zero](https://github.com/reprograma/responsivo/tree/master/exercicio-responsivo-do-zero)
 
 ***
 
@@ -162,3 +170,5 @@ Porque mobile first é 😍
 Porque mobile first é 🤦‍
 
 * No processo de pensamento minimalista você pode acabar perdendo boas ideias
+
+* [Exercicio - Codar um layout mobile first](https://github.com/reprograma/responsivo/tree/master/exercicio-mobile-first)
