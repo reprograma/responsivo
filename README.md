@@ -22,7 +22,6 @@
 
 * [Aula 3](#aula-3)
   * [Display: flex](#display-flex)
-  * [Display: grid](#display-grid)
 
 * [Aula 4](#aula-4)
   * [O que é mobile first](#o-que-é-mobile-first)
@@ -124,6 +123,7 @@ Grid fluído + media queries
 Essa é uma técnica que pode ser usada sempre, não apenas visando os layouts responsivos.
 
 ![omg](images/grid.jpg)
+
 Um dos grids mais utilizados pelos designers e programadores é o grid de 12 colunas, pela facilidade de dividir por 2, 3, 4 e 6.
 
 Vamos usar o exemplo fixo abaixo para calcular o tamanho em % de um layout.
@@ -315,6 +315,35 @@ Para ajudar a salvar imagens leves e com qualidade: https://tinypng.com/
 
 ***
 
+## Aula 3
+
+#### Display flexbox
+
+A propriedade de css `display: flex` permite alinhar com facilidade elementos lado a lado.
+
+Você deve adicionar a propriedade no elemento pai para alinhar o conteúdo filho lado a lado.
+
+
+```html
+<nav class="container">
+  <div>Home</div>
+  <div>Busca</div>
+  <div>Sair</div>
+</nav>
+```
+
+```css
+.container {
+  display: flex;
+}
+```
+
+O display: flex tem propriedade complementares que permitem alinhar os elementos filhos ao centro, à direita, à esquerda, tanto na horizontal como na vertical.
+
+`Exercício para treinar: https://flexboxfroggy.com/#pt-br`
+
+***
+
 ## Aula 4
 
 ### Mobile first
@@ -353,6 +382,7 @@ Só que nesse processo alguma informação importante para o usuário que acessa
 
 * [Exercicio - Codar um layout mobile first](https://github.com/reprograma/responsivo/tree/master/exercicio-mobile-first)
 
+***
 
 #### Para saber mais:
 * https://alistapart.com/article/fluidgrids (grid fluido)
@@ -363,3 +393,5 @@ Só que nesse processo alguma informação importante para o usuário que acessa
 * https://www.w3schools.com/cssref/css_units.asp
 * https://css-tricks.com/almanac/properties/f/font-size/
 * https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+* https://medium.freecodecamp.org/learn-css-flexbox-in-5-minutes-b941f0affc34
+* https://flexboxfroggy.com/#pt-br
