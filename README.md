@@ -228,7 +228,7 @@ O que vai acontecer é que o browser vai ler a folha de estilos, e **SE** a cond
 1280px (desktop)
 1024px (tablet - horizontal)
 768px (tablet - vertical)
-320px - 360px - 414px (mobile)
+420px (mobile)
 ```
 
 ***

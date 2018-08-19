@@ -16,6 +16,16 @@ Antes de começar a codar vamos desenhar os wireframes do site, um para cada dis
 
 ***
 
+Breakpoints que vamos utilizar:
+
+Desktop: 1280px
+
+Tablet: 786px
+
+Mobile: 420px
+
+***
+
 #### Cores:
 
 Cor principal: `#f44336` ![#f44336](https://placehold.it/25/f44336/000000?text=+)
