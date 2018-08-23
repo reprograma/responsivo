@@ -8,7 +8,9 @@
 
 Nosso segundo exercício vai ser codar um layout responsivo do zero a partir dos layouts abaixo.
 
-Preview do layout para referência: https://ptonella.github.io/reprograma/site-mundo-gelado/index.html
+**Preview do layout para referência:** https://ptonella.github.io/reprograma/site-mundo-gelado/index.html
+
+**Preview do layout simplificado:** https://ptonella.github.io/reprograma/site-mundo-gelado/versao-simplificada/index.html
 
 Todas as imagens do site podem ser baixadas aqui: https://github.com/reprograma/responsivo/tree/master/exercicio-responsivo-do-zero/imagens-do-site
 
