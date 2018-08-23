@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Nunito;
+  font-size: 16px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.transition {
+  transition: all 1s;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+    padding: 0 4%;
+  }
+}
+
+.nav {
+  background: #96B6CA;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 85px;
+}
+
+.nav__link {
+  color: #fff;
+  margin-right: 50px;
+}
+
+.nav__link:hover {
+  color: rgba(255, 255, 255, .75);
+}
+
+.nav__mobile {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .nav {
+    background-color: #fff;
+  }
+
+  .nav__link {
+    display: none;
+  }
+
+  .nav__mobile {
+    display: block;
+  }
+}
+
+.banner {
+  background: url("../img/foto-banner.jpg");
+  background-size: cover;
+  margin-top: 85px;
+  text-align: center;
+  height: 500px;
+}
+
+@media (max-width: 420px) {
+  .banner {
+    height: 400px;
+    background-position: -360px 0;
+  }
+}
+
+.banner__title {
+  font-size: 105px;
+  color: rgba(255, 255, 255, .9);
+  text-transform: uppercase;
+  font-family: 'Varela Round';
+  font-weight: 100;
+  padding-top: 80px;
+  letter-spacing: 8px;
+}
+
+@media (max-width: 1024px) {
+  .banner__title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .banner__title {
+    font-size: 60px;
+  }
+}
+
+.banner__subtitle {
+  color: rgba(255, 255, 255, .7);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media (max-width: 850px) {
+  .banner__subtitle {
+    font-size: 18px;
+  }
+}
+
+.banner__btn {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.btn--primary {
+  background-color: #829dad;
+}
+
+.btn--primary:hover {
+  background-color: #36b0e0;
+}
