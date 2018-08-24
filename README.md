@@ -22,13 +22,10 @@
 
 * [Aula 3](#aula-3)
   * [Display: flex](#display-flex)
-
-* [Aula 4](#aula-4)
   * [O que é mobile first](#o-que-é-mobile-first)
   * [Porque é importante](#porque-é-importante)
   * [Porque mobile first é 😍](#porque-mobile-first-é-)
   * [Porque mobile first é 🤦‍](#porque-mobile-first-é--1)
-  * [Exercicio - Codar um layout mobile first](https://github.com/reprograma/responsivo/tree/master/exercicio-mobile-first)
 
 ***
 
@@ -341,46 +338,6 @@ Você deve adicionar a propriedade no elemento pai para alinhar o conteúdo filh
 O display: flex tem propriedade complementares que permitem alinhar os elementos filhos ao centro, à direita, à esquerda, tanto na horizontal como na vertical.
 
 `Exercício para treinar: https://flexboxfroggy.com/#pt-br`
-
-***
-
-## Aula 4
-
-### Mobile first
-
-#### O que é mobile first?
-É exatamente o que o nome sugere: pensar em toda a estrutura de um site a partir do mobile e depois ir progressivamente pensando nas telas maiores.
-
-***
-
-#### Porque é importante
-
-![Mockup](images/mobile-first-1.png)
-***
-![Mockup](images/mobile-first-2.png)
-***
-![Mockup](images/mobile-first-3.png)
-
-
-Apesar do número de usuários que acessam sites pelo celular/tablet, é mais comum para os designers/desenvolvedores pensar no site a partir do desktop, que é a tela que eles estão olhando quando estão trabalhando. Depois de tudo pensando para desktop, começa um processo de “aperta pra caber” o conteúdo no mobile
-
-Só que nesse processo alguma informação importante para o usuário que acessa pelo celular pode ser cortada do site, e outras informações não tão relevantes podem ser mantidas.
-
-***
-
-#### Porque mobile first é 😍
-
-* A maior vantagem desse método é a otimização do site para o celular, com foco em conteúdo e funcionalidade para melhorar a experiência do usuário
-
-***
-
-#### Porque mobile first é 🤦‍
-
-* No processo de pensamento minimalista você pode acabar perdendo boas ideias
-
-***
-
-* [Exercicio - Codar um layout mobile first](https://github.com/reprograma/responsivo/tree/master/exercicio-mobile-first)
 
 ***
 
