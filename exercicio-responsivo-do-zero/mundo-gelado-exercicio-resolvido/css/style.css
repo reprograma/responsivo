@@ -19,6 +19,11 @@ ul, li {
 
 a {
   text-decoration: none;
+  color: #829dad;
+}
+
+a:hover {
+  color: #3c6360;
 }
 
 .container {
@@ -85,7 +90,6 @@ a {
   margin-top: 85px;
   text-align: center;
   height: 500px;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%), url(../img/foto-banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,6 +156,18 @@ a {
 
 .btn--primary:hover {
   background-color: #36b0e0;
+  color: #fff;
+}
+
+.about {
+  background-color: rgba(22, 22, 22, .8);
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.about__title {
+  margin-bottom: 20px;
 }
 
 .destination {
@@ -302,4 +318,32 @@ a {
   .destination__description--antartida {
     text-align: center;
   }
+}
+
+.footer {
+  background-color: #161616;
+  margin-top: 80px;
+  text-align: center;
+  padding: 40px;
+  color: rgba(255,255,255,.5);
+}
+
+.footer__socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.footer__twitter,
+.footer__facebook,
+.footer__youtube {
+  opacity: 0.5;
+  margin: 0 10px;
+}
+
+.footer__twitter:hover,
+.footer__facebook:hover,
+.footer__youtube:hover {
+  opacity: 1;
 }
